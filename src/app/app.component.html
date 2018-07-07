@@ -1,0 +1,13 @@
+<!-- app/app.component.html -->
+
+<mat-toolbar color="primary">
+  <h1><span class="light">AQ</span>Enterprise</h1>
+  <span class="spacer"></span>
+  <a mat-button [routerLink]="['home']"
+  routerLinkActive="active">Home</a>
+  <a mat-button [routerLink]="['about']"
+  routerLinkActive="active">About</a>
+  <a mat-button [routerLink]="['contact']"
+  routerLinkActive="active">Contact</a>
+</mat-toolbar>
+<router-outlet></router-outlet>
